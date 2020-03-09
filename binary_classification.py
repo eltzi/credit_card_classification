@@ -79,6 +79,3 @@ def random_data_classifier():
     plt.plot(X, y_pred, 'r')
     plt.show()
 
-
-
-predicted_probabilities()
