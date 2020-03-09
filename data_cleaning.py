@@ -5,7 +5,7 @@ mpl.rcParams['figure.dpi'] = 400
 
 
 current_directory = os.path.dirname(__file__)
-file_path = os.path.join(current_directory, 'resources//credit_card_clients.xls')
+file_path = os.path.join(current_directory, 'credit_card_clients.xls')
 dataset = pd.read_excel(file_path, sheet_name='Sheet1')
 
 
